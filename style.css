@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+nav {
+    height: 100px;
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* text-align: center; */
+    padding: 0 50px;
+}
+
+.nav-part1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-part1-1 {
+    border: 2px solid #000;
+    padding: 8px 18px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.nav-part1-2 {
+    border: 2px solid #000;
+    padding: 8px 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.btn {
+    border: 2px solid #000;
+    font-weight: 700;
+    padding: 8px 17px;
+    border-radius: 18px;
+    cursor: pointer;
+}
+
+.orangered {
+    background-color: orangered; 
+    color: white; 
+    border: 2px solid orangered;
+}
+
+.title {
+    margin-left: 11px;
+    cursor: pointer;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+main>h1{
+    font-size: 150px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+
+main img {
+    position: absolute;
+    height: 400px;
+    width: 320px;
+    object-fit: cover;
+    object-position: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+
+.img1 {
+    transform: translate(-50%, -50%) rotate(-30deg);
+}
+.img2 {
+    transform: translate(-50%, -50%) rotate(-20deg);
+}
+.img3 {
+    transform: translate(-50%, -50%) rotate(-10deg);
+}
+
+.foot-txt-left {
+    position: absolute;
+    bottom: 5%;
+    left: 7.5%;
+    transform: translate(-50%, -50%);
+
+}
+
+.foot-right {
+    position: absolute;
+    bottom: 4%;
+    right: 0%;
+    transform: translate(-50%, -50%);
+}
+
+.social-icons>.icons {
+    margin: 12px;
+}
+
+.foot-center i {
+    font-size: 50px;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
